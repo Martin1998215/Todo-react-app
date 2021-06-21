@@ -64,7 +64,10 @@ font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   flex-direction: column;
   justify-content: space-between;
 }
-.text-section h4 {
+.h4 {
+  display: flex;
+  flex-wrap:wrap;
+  word-break: break-all;
   padding: 5px;
   width: 100%;
   margin: 5px auto;

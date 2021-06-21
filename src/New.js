@@ -34,8 +34,8 @@ const Todo = ({ todo, index, completeTodo, removeTodo }) => {
     return (
         <div className="container">
             <Paper className='inner' style={{ textDecoration: todo.isCompleted ? "line-through" : "" }}>
-                <div item className="text-section">
-                    <h4>{todo.text}</h4>
+                <div className="text-section">
+                    <h4 className="h4">{todo.text}</h4>
                     <h5>{todo.date}</h5>
                 </div>
                 <div className="btn-section">
